@@ -1,0 +1,303 @@
+.header {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-header > h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.p-subtitle {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.oferta {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0bd308;
+    margin-top: 20px;
+}
+
+.p-button {
+    margin-top: 40px;
+}
+
+.btn-primary {
+    background-color: #fff;
+    border: solid 2px #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #220d0a;
+    padding: 15px 70px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    text-decoration: none;
+    border-color: #fff;
+    color: #220d0a;
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 1060px;
+}
+
+.benefits {
+    background-color: #f4f4f4;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.benefits h2 {
+    font-size: 24px;
+}
+
+.benefits h4 {
+    font-size: 18px;
+}
+
+.benefit-items p {
+    font-size: 14px;
+}
+
+.benefit-items img {
+    width: 40%;
+    height: 40%;
+}
+
+.benefit-items h4 {
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: transparent;
+    border: solid 1px #220d0a;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #220d0a;
+    padding: 15px 70px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #220d0a;
+    text-decoration: none;
+    border-color: #220d0a;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.planos {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.planos h2 {
+    font-size: 24px;
+}
+
+.planos h4 {
+    font-size: 14px;
+}
+
+.planos h1 {
+    font-size: 25px;
+}
+
+.button-planos {
+    background-color: transparent;
+    border: solid 1px #220d0a;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #220d0a;
+    padding: 12px 40px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.button-planos:hover {
+    background-color: #220d0a;
+    text-decoration: none;
+    border-color: #220d0a;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.caixa-contador {
+    background-color: #220d0a;
+    border-radius: 100px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.oferta-contador {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.contador {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.assinatura {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 100px;
+}
+
+.assinatura h2 {
+    font-size: 24px;
+}
+
+.assign-button {
+    background-color: #220d0a;
+    border: solid 2px #220d0a;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 70px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.assign-button:hover {
+    background-color: #220d0a;
+    text-decoration: none;
+    border-color: #220d0a;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.footer {
+    padding: 50px 0px;
+    background-color: #160705;
+    font-size: 12px;
+    color: #fff;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 800px) {
+
+    .text-header {
+        text-align: left;
+    }
+
+    .text-header > h1 {
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    .img-drone {
+        margin-top: 0px;
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+
+    .planos h4 {
+        font-size: 14px;
+    }
+
+    .planos h1 {
+        font-size: 25px;
+    }
+
+    .button-planos {
+        padding: 8px 20px;
+    }
+
+    .caixa-contador {
+        padding: 8px 18px;
+    }
+
+    .oferta-contador {
+        font-size: 8px;
+    }
+
+    .contador {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .text-header {
+        text-align: center;
+    }
+
+    .text-header > h1 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .img-drone {
+        margin-top: 0px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .planos h4 {
+        font-size: 12px;
+    }
+
+    .planos h1 {
+        font-size: 22px;
+    }
+
+    .caixa-contador {
+        padding: 10px 18px;
+    }
+
+    .oferta-contador {
+        font-size: 8px;
+    }
+
+    .contador {
+        font-size: 24px;
+    }
+
+    .assign-button {
+        font-size: 13px;
+        padding: 15px 50px;
+    }
+}
+
