@@ -5,7 +5,7 @@
 
 Os arquivos a serem modificados devem se encontrar conforme abaixo.
 
-### Arquivo: .env
+### Arquivo: .env (na raiz do projeto)
 
 ```
 MAIL_DRIVER=smtp
@@ -19,7 +19,7 @@ MAIL_FROM_NAME='Site Café Hitech'
 
 ```
 
-### Arquivo: AssinaturaController
+### Arquivo: AssinaturaController.php (app/HTTP/Controllers)
 
 ```
 Mail::to('emaildedestino@email.com')->send(new NovaAssinatura($name, $mail, $phone, $street, $number, $nb, $city, $state, $plan));
