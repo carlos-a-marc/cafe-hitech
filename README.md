@@ -19,7 +19,7 @@ MAIL_FROM_NAME='Site Café Hitech'
 
 ```
 
-### Arquivo: AssinaturaController.php (app/HTTP/Controllers)
+### Arquivo: AssinaturaController.php (app/Http/Controllers)
 
 ```
 Mail::to('emaildedestino@email.com')->send(new NovaAssinatura($name, $mail, $phone, $street, $number, $nb, $city, $state, $plan));
