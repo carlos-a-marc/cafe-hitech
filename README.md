@@ -1,4 +1,4 @@
-# cafe hitech
+# Cafe Hitech
 Criação de serviço de café por assinatura
 
 ## Alterações necessárias para o envio dos e-mails
